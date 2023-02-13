@@ -17,6 +17,8 @@
 
 .header {
     font-size: 11px;
+    position: relative;
+    z-index: 1;
 }
 
 .iconBar {
@@ -27,6 +29,43 @@
 .iconBar:hover {
     color: #ff0000;
 }
+
+.BannerDiv {
+    width: 100%;
+    height: 50%;
+}
+
+.BannerImg {
+    width: 100%;
+    margin-top: -8%;
+    margin-bottom: -6%;
+    position: relative;
+    z-index: 0;
+}
+
+.listUnderBannerItems{
+    color: black;
+    transition:all 150ms linear 0ms;
+}
+
+.listUnderBannerItems:hover{
+    color: #ff0000;
+}
+
+.listUnderBannerItems::after{
+    content: "";
+    display: block;
+    transition: all 500ms ease 0ms;
+}
+
+.listUnderBannerItems:hover:after{
+    border-bottom: solid #ff0000 2px;
+    padding-bottom: 5px;
+    color: #ff0000;
+}
+
+
+
 
 @media all and (max-width:849px) {
     .topBar {
@@ -52,6 +91,15 @@
     .firstIconDisplay {
         display: none;
     }
+
+    .rowUnderBanner {
+        font-size: calc(8px + 0.6vw);
+        height: 69px;
+        position: relative;
+        z-index: 1;
+    }
+
+    
 }
 
 @media all and (min-width:850px) {
@@ -84,6 +132,13 @@
         display: block;
     }
 
+    .rowUnderBanner {
+        font-size: calc(8px + 0.6vw);
+        height: 89px;
+        position: relative;
+        z-index: 1;
+    }
+
 }
 
 @media all and (max-width:1149px) {
@@ -95,6 +150,7 @@
 @media all and (min-width:1150px) {
     .navTextBarDisplay {
         display: block;
+        height: 35px;
     }
 
     .navTextBar {

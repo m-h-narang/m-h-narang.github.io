@@ -18,8 +18,8 @@
 <body>
     <header>
         <div class="container-fluid px-0">
-            <div class="header">
-                <div class="topBar">
+            <div class="bg-light header">
+                <div class="position-relative topBar">
                     <ul class="d-flex list-unstyled my-0 topBar">
                         <li class="px-3 d-flex align-items-center justify-content-center topBarText"><a class="link-light nav-link topBarLink" href="#">PSG.FR</a></li>
                         <li class="px-3 d-flex align-items-center justify-content-center topBarText"><a class="link-light nav-link topBarLink" href="#">TICKETS</a></li>
@@ -31,9 +31,9 @@
                 </div>
         
                 <nav>
-                    <div class="row d-flex flex-wrap">
+                    <div class="row bg-light d-flex flex-wrap mx-0">
                         <div class="my-2 d-flex align-content-center justify-content-between">
-                            <div class="col-4 ps-3 d-flex align-items-center text-start">
+                            <div class="col-4 d-flex align-items-center text-start">
                                 <a class="fs-4 iconBar" href="#"><i class="bi bi-list"></i></a>
                             </div>
                             <div>
@@ -42,12 +42,12 @@
                             <div class="col-4 d-flex align-items-center justify-content-end">
                                 <a class="mx-2 fs-5 pe-2 border-end iconBar firstIconDisplay" href="#"><i class="bi bi-search"></i></a>
                                 <a class="me-2 pe-2 border-end fs-5 iconBar" href="#"><i class="bi bi-person"></i></a>
-                                <a class="me-2 pe-3 fs-5 iconBar" href="#"><i class="bi bi-globe"></i></a>
+                                <a class="me-2 fs-5 iconBar" href="#"><i class="bi bi-globe"></i></a>
                             </div>
                         </div>
                 </nav>
         
-                    <div class="my-1 navTextBar navTextBarDisplay">
+                    <div class="my-1 bg-light navTextBar navTextBarDisplay">
                         <ul class="d-flex list-unstyled justify-content-center">
                             <li class="px-3 d-flex align-items-center justify-content-center"><a class="link-dark navTextBar nav-link navTextBarContent" href="#">FIRST TEAM</a></li>
                             <li class="px-3 d-flex align-items-center justify-content-center"><a class="link-dark navTextBar nav-link navTextBarContent" href="#">PSG TV</a></li>
@@ -62,6 +62,59 @@
         
         </div>
     </header>
+
+    <div class="container-fluid px-0 BannerDiv">
+        <img class="col-md-12 d-none d-md-flex BannerImg" src="photos/psg_slider.jpg">
+        <img class="d-md-none col-12 BannerImg" src="photos/psg_slider_minimal.jpg">
+    </div>
+
+    <div class="container-fluid bg-light rowUnderBanner">
+        <div class="row h-100">
+            <div class="col-2">
+                <p class="h-100 d-flex my-0 text-secondary align-items-center justify-content-md-center justify-content-start">
+                    FIRST TEAM
+                </p>
+            </div>
+            <div class="col-md-9 offset-md-1 col-10">
+                <div class="row h-100">
+                    <ul class="list-unstyled my-0 d-flex align-content-center">
+                        <li class="col-1 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                          <a class="nav-link listUnderBannerItems" href="#">
+                            News
+                          </a>
+                        </li>
+                        <li class="col-3 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                          <a class="nav-link listUnderBannerItems" href="#">
+                            Transfers 22/23
+                          </a>
+                        </li>
+                        <li class="col-1 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                          <a class="nav-link listUnderBannerItems" href="#">
+                            Players
+                          </a>
+                        </li>
+                        <li class="col-xlg-2 col-3 mx-1 mx-md-0 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                          <a class="nav-link listUnderBannerItems" href="#">
+                            Fixtures and Results
+                          </a>
+                        </li>
+                        <li class="col-2 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                          <a class="nav-link listUnderBannerItems" href="#">
+                            League table
+                          </a>
+                        </li>
+                        <li class="col-1 h-100 d-flex align-items-center justify-content-center overflow-hidden">
+                          <a class="nav-link listUnderBannerItems" href="#">
+                            Honours
+                          </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
