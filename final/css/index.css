@@ -65,7 +65,33 @@
 }
 
 
+@media all and (max-width:767px) {
+    .filterRow{
+        height: 122px;
+        font-size: calc(8px + 0.6vw);
+        background-color: #f4f4f4;
+    }
 
+    .filterRowBoxs{
+        height: 39px;
+        border-color: #f0f0f0;
+    }
+
+}
+
+@media all and (min-width:767px) {
+    .filterRow{
+        height: 134px;
+        font-size: calc(8px + 0.6vw);
+        background-color: #f4f4f4;
+    }
+
+    .filterRowBoxs{
+        height: 51px;
+        border-color: #f0f0f0;
+    }
+
+}
 
 @media all and (max-width:849px) {
     .topBar {
@@ -95,11 +121,12 @@
     .rowUnderBanner {
         font-size: calc(8px + 0.6vw);
         height: 69px;
+        background-color: #fff;
         position: relative;
         z-index: 1;
     }
 
-    
+
 }
 
 @media all and (min-width:850px) {
@@ -135,6 +162,7 @@
     .rowUnderBanner {
         font-size: calc(8px + 0.6vw);
         height: 89px;
+        background-color: #fff;
         position: relative;
         z-index: 1;
     }
