@@ -74,6 +74,12 @@
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg1:hover{
+    filter: opacity(35%);
 }
 
 .backgroundImg2{
@@ -81,6 +87,12 @@
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg2:hover{
+    filter: opacity(35%);
 }
 
 .backgroundImg3{
@@ -88,7 +100,315 @@
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
 }
+
+.backgroundImg3:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg4{
+    background-image: url("../photos/card-season-22-23-hakimi.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg4:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg5{
+    background-image: url("../photos/card-season-22-23-kimpembe.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg5:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg6{
+    background-image: url("../photos/card-season-22-23-ramos.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg6:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg7{
+    background-image: url("../photos/card-season-22-23-marquinhos.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg7:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg8{
+    background-image: url("../photos/card-season-22-23-bernat.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg8:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg9{
+    background-image: url("../photos/card-season-22-23-mendes.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg9:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg10{
+    background-image: url("../photos/card-22-23_mukiele.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg10:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg11{
+    background-image: url("../photos/joueurs-22-23-pembele-v23.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg11:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg12{
+    background-image: url("../photos/card-season-22-23-verratti.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg12:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg13{
+    background-image: url("../photos/card-ruiz-22-23.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg13:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg14{
+    background-image: url("../photos/card-season-22-23-danilo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg14:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg15{
+    background-image: url("../photos/card-season-22-23-vitinha.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg15:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg16{
+    background-image: url("../photos/card-22-23_renato.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg16:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg17{
+    background-image: url("../photos/card-soler-22-23.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg17:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg18{
+    background-image: url("../photos/card-season-22-23-mbappe.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg18:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg19{
+    background-image: url("../photos/card-22-23_neymar.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg19:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg20{
+    background-image: url("../photos/card-season-22-23-messi.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg20:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg21{
+    background-image: url("../photos/card-22-23_ekitike.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg21:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg22{
+    background-image: url("../photos/card-22-23_bitshiabu.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg22:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg23{
+    background-image: url("../photos/card-22-23_0003_zaire-emery.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg23:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg24{
+    background-image: url("../photos/card-22-23_gharbi.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg24:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg25{
+    background-image: url("../photos/housni-temp.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg25:hover{
+    filter: opacity(35%);
+}
+
+.backgroundImg26{
+    background-image: url("../photos/card-22-23_lavallee.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    filter: brightness(85%);
+    transition: all 400ms linear 0ms;
+}
+
+.backgroundImg26:hover{
+    filter: opacity(35%);
+}
+
+
+
 
 @media all and (max-width:767px) {
     .filterRow{
